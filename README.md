@@ -1,6 +1,7 @@
 britam-finance-dashboard/README.md
 Britam BetaLab Portal - Enterprise Digital Banking Dashboard
-![alt text](https://img.shields.io/badge/demo-live-blue.svg)
+[![Live Demo](https://img.shields.io/badge/demo-live-blue.svg)](https://britam-fintech-portal-31xt.vercel.app)
+
 
 ![alt text](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
