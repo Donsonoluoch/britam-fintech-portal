@@ -19,7 +19,7 @@ interface BankContextType {
 const BankContext = createContext<BankContextType | undefined>(undefined);
 
 export const BankProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [balance, setBalance] = useState(125400.50); // Hardcoded starting balance in KES
+  const [balance, _setBalance] = useState(125400.50); // Hardcoded starting balance in KES
   const [transactions, setTransactions] = useState<Transaction[]>([]);
   const [loading, setLoading] = useState(true);
 
